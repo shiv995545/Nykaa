@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --borderb: 2px solid back;
+  --borderr: 2px solid rd;
+}
+
+.nav {
+  width: 100vw;
+  height: 162px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0px;
+}
+
+
+/* Navbar 1st which is on top in the class called nav is below... */
+.nav1 {
+  width: 100vw;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: rgb(28, 99, 161);
+  display: flex;
+  background-image: url(./photos/nav1/photos/nav1\(background\).jpg);
+  background-size: 100%;
+}
+
+.nav1-1 {
+  width: 1433px;
+  height: 40px;
+  border: 2px solid black;
+  margin: 0px 146.5px;
+  display: flex;
+  border: var(--borderb);
+  box-sizing: border-box;
+}
+
+/* The CSS code you provided is styling a navigation element with the class `.nav1-1-1`. Here is a
+breakdown of what each part of the code is doing: */
+.nav1-1-1 {
+  width: 604.2px;
+  height: 40px;
+  border: var(--borderb);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.nav1-1-1-anchor {
+  animation: slide-up 3s infinite;
+}
+#nav1-1-1-anchor {
+  text-decoration: none;
+  color: #000;
+}
+/* The `@keyframes slide-up` rule in CSS defines a set of keyframes for an animation called `slide-up`.
+This animation will be applied to an element with the class `.nav1-1-1-anchor` and it will make the
+element slide up and fade in and out. */
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  30% {
+    transform: translateY(0%);
+  }
+
+  70% {
+    transform: translateY(0%);
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+/* The CSS code you provided is styling a navigation menu within an element with the class `.nav1-1-1`.
+Here is a breakdown of what each part of the code is doing: */
+.nav1-1-1-ul ul {
+  width: 513px;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+  align-items: center;
+}
+
+.ul-nav1 li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 1px;
+  background-color: black;
+}
+
+.ul-nav1 li {
+  position: relative;
+  padding: 0 13px;
+  display: flex;
+  align-items: center;
+}
+
+
+.nav1-1-1-ul ul li a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  height: 40px;
+}
+
+.nav1-1-1-ul ul li a:hover{
+  color: white;
+}
+
+.ul-nav1 img {
+  height: 24px;
+  width: 24px;
+}
+
+
+
+
+
+
+
+.nav2 {
+  width: 100vw;
+  height: 66px;
+  padding-top: 4px;
+  border: var(--borderb);
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.nav3 {
+  width: 100vw;
+  height: 50px;
+  border: var(--borderb);
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
